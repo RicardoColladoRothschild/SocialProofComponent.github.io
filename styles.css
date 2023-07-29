@@ -105,7 +105,7 @@ body{
 
 .profile-name-container h5{
     font-size:1.8rem;
-    color:var(--white);
+    color:var(--lightGrayishMagenta);
     font-family: 200;
 }
 
@@ -114,4 +114,11 @@ body{
     color:var(--softPink);
 }
 
+
+.comment-review-container p{
+
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color:var(--lightGrayishMagenta);
+}
 
