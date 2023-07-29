@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,400&family=Inter:wght@300;500&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
+:root{
+    --darkMagenta:#502050;
+    --softPink: #ee68a4;
+    --grayishMagenta:#937b92;
+    --lightGrayishMagenta:#f7f2f7;
+    --white:#ffffff;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body{
+    width:100%;
+    height: 100vh;
+    background-image: url('./images/bg-pattern-top-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    padding:35px;
+    
+}
+
+.titles-container h3{
+    font-size:3.5rem;
+    text-align: center;
+    margin-bottom:30px;
+    line-height: 2.5rem;
+    font-weight: 700;
+    color:var(--darkMagenta);
+}
+
+.titles-container p{
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 2.0rem;
+    color:var(--grayishMagenta);
+    margin-bottom: 30px;
+}
+
+.rate-container .rate-review-card-container{
+    width:100%;
+    height: 60px;
+    padding:10px;
+    margin-bottom:15px;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    background-color: var(--lightGrayishMagenta);
+    font-size: 1.2rem;
+    color:var(--darkMagenta);
+}
+
+.rate-container .rate-review-card-container .rate-card-starts-container{
+    margin-bottom:6px;
+}
+
+
