@@ -85,4 +85,33 @@ body{
 
 }
 
+.card-profile-container{
+    display:flex;
+    gap:25px;
+    margin-bottom: 20px;
+}
+
+
+
+.card-profile-container .profile-photo-container img{
+    width:50px;
+    border-radius: 50px;
+
+}
+
+.profile-name-container{
+    padding-top:8px;
+}
+
+.profile-name-container h5{
+    font-size:1.8rem;
+    color:var(--white);
+    font-family: 200;
+}
+
+.profile-name-container p{
+    font-size: 1.4rem;
+    color:var(--softPink);
+}
+
 
