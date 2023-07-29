@@ -122,3 +122,12 @@ body{
     color:var(--lightGrayishMagenta);
 }
 
+footer{
+    width:100%;
+    background-color:var(--lightGrayishMagenta);
+    display:grid;
+    place-items: center;
+    font-size: 1.5rem;
+    color:var(--grayishMagenta);
+}
+
