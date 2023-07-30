@@ -30,15 +30,19 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    margin:0 auto;
-    padding:35px;
+    align-items: center;    
+    justify-content: center;
     
 }
-
+.titles-container{
+    margin-top:35px;
+    padding:10px;
+}
 .titles-container h3{
     font-size:3.5rem;
     text-align: center;
     margin-bottom:30px;
+    
     line-height: 2.5rem;
     font-weight: 700;
     color:var(--darkMagenta);
@@ -52,8 +56,17 @@ body{
     margin-bottom: 30px;
 }
 
+.rate-container{
+    width:320px;
+    min-width:300px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .rate-container .rate-review-card-container{
-    width:100%;
+    width:288px;
     height: 60px;
     padding:10px;
     margin-bottom:15px;
@@ -73,14 +86,20 @@ body{
 
 .review-container{
     margin-top:25px;
+    width:100%;
+    min-width:320px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .review-card-container{
-    width:300px;
+    width:288px;
     height: 250px;
     background-color: var(--darkMagenta);
     padding:30px;
     border-radius: 10px;
+    justify-self: center;
     margin-bottom: 20px;
 
 }
