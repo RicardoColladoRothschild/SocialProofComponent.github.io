@@ -91,11 +91,11 @@ body{
 .review-container{
     margin-top:25px;
     width:100%;
-    max-width: 320px;
+    max-width: 1000px;
     min-width:320px;
     
     display:flex;
-    flex-wrap: wrap;
+    
     flex-direction: column;
     justify-content: center;
     align-items: center;

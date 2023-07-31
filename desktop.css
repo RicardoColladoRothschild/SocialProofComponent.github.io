@@ -50,3 +50,9 @@ body{
 .rate-container .rate-review-card-container .rate-card-starts-container img{
     width:15px;
 }
+
+.review-container{
+    width:800px;
+    flex-direction: row;
+    gap:15px;
+}
