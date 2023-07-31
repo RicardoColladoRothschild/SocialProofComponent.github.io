@@ -1,16 +1,52 @@
+
+body{
+    background-image: url('./images/bg-pattern-top-desktop.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size:500px;
+    background-position-y: top;
+}
 .container{
-    width:800px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:75px;
+    
+    width:85%;
+    height: 85%;
+    margin:0 auto;
+    margin-top:65px;
+    padding:35px;
 
     flex-direction: row;
 }
 .titles-container{
-    width:50%;
+    width:30%;
        
 }
 
 .rate-container{
-    width:50%;
+    width:70%;
+    
+}
+
+.rate-container .rate-review-card-container{
+    display:flex;
+    flex-direction: row;
+    gap:15px;
+    width:325px;
+    height: 40px;
+}
+
+.rate-view-A{
+    margin-right: 25%;
+    
+}
+
+.rate-view-B{
+    margin-right: 15%;;
+}
+
+.rate-view-C{
+    margin-right: 5%;
+}
+
+.rate-container .rate-review-card-container .rate-card-starts-container img{
+    width:15px;
 }

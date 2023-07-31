@@ -21,13 +21,15 @@ html{
 body{
     width:100%;
     height: 100vh;
-    background-image: url('./images/bg-pattern-top-desktop.svg');
+    background-image: url('./images/bg-pattern-top-mobile.svg');
     background-repeat: no-repeat;
     background-size: contain;
-    
 }
 
 .container{
+    /*background*/
+    
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -40,11 +42,11 @@ body{
     padding:10px;
 }
 .titles-container h3{
-    font-size:3.5rem;
+    font-size:4.2rem;
     text-align: center;
     margin-bottom:30px;
     
-    line-height: 2.5rem;
+    line-height: 3.5rem;
     font-weight: 700;
     color:var(--darkMagenta);
 }
