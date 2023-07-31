@@ -17,12 +17,15 @@ body{
     flex-direction: row;
 }
 .titles-container{
-    width:30%;
+    width:288px;
+    
+    margin-right:300px;
        
 }
 
 .rate-container{
-    width:70%;
+    width:288px;
+    margin-right: 150px;
     
 }
 
